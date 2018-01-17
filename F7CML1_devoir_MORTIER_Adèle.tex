@@ -1,0 +1,36 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[french]{babel}
+\usepackage{frbib}
+\usepackage{french}
+\usepackage{graphicx}
+\usepackage{geometry}
+\geometry{
+	a4paper,
+	left=20mm,
+	top=20mm,
+}
+
+
+\title{code UE -- titre\\
+	 sujet}
+\author{Adèle Mortier}
+
+\begin{document}
+\cite{Brodsky1982}
+\maketitle
+\nocite{*}
+
+
+\begin{center}
+	\footnotesize
+	\begin{minipage}{0.7\textwidth}
+		citation
+	\end{minipage}
+\end{center}
+\medskip
+
+\bibliographystyle{frcomplet}
+\bibliography{bibliography}
+
+\end{document}
